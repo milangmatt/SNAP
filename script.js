@@ -14,7 +14,7 @@ function displayCard(card) {
     cardContainer.innerHTML = `<img src="${card}" alt="Random Card">`;
     
     // Hide the button after generating
-    document.getElementById("generate-card").style.display = "block";//change to none
+    document.getElementById("generate-card").style.display = "none";//change to none
 }
 
 document.getElementById("generate-card").addEventListener("click", () => {
