@@ -1,4 +1,4 @@
-/* Reset some default browser styles for consistency */
+
 body,
 h1,
 h2,
@@ -7,20 +7,35 @@ button {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+
 }
 .head {
-    font-size: 100px;
+    font-size: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'Broken Dreams', sans-serif;
+                                                
 }
 body {
   font-family: Arial, sans-serif;
-  background-color: #292828; /* Black background */
+  background-image: url('bg.jpg');
+ 
   color: #eae3e3; /* White text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.bd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2c2c9a; 
+    margin: 20px;
+    border-radius: 50px;
+}
 #card-container {
     border-radius: 50px;
   margin: 20px 10%;
@@ -49,4 +64,28 @@ button {
 
 button:hover {
   background-color: #9b59b6; /* Purple button background color on hover */
+}
+.inst{
+    display: flex;
+    background: #2c2c2c;
+    justify-content: center;
+    width: fit-content;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.small{
+    font-family: 'Broken Dreams', sans-serif;
+    font-size: 80px;
+    padding: 10px;
+}
+.inscont {
+    display: flex;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
