@@ -1,0 +1,51 @@
+/* Reset some default browser styles for consistency */
+body,
+h1,
+h2,
+p,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.head {
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Share Tech', sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #292828; /* Black background */
+  color: #eae3e3; /* White text color */
+}
+
+#card-container {
+    border-radius: 50px;
+  margin: 20px 10%;
+  text-align: center;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #3498db; /* Blue button background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #9b59b6; /* Purple button background color on hover */
+}
