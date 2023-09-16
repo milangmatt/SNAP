@@ -1,5 +1,5 @@
 
-const cards = ['cards/2.jpeg','cards/3.jpeg','cards/4.jpeg','cards/5.jpeg','cards/6.jpeg','cards/1.jpeg','cards/7.jpeg','cards/8.jpeg','cards/9.jpeg','cards/10.jpeg'];
+const cards = ['cards/1.png','cards/2.png','cards/3.png','cards/4.png','cards/5.png','cards/6.png','cards/7.png','cards/8.png','cards/9.png','cards/10.png','cards/11.png','cards/12.png'];
 
 
 function generateRandomCard() {
